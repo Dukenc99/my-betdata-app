@@ -56,7 +56,7 @@ function classNames(...classes) {
 }
 
 export default function HomePage() {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
   const cancelButtonRef = useRef(null)
   return (
